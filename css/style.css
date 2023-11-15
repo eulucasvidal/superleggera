@@ -5,4 +5,7 @@
 /* Utilidades Style */
 @import '../css/assets/utilidades/cores.css';
 @import '../css/assets/utilidades/tipografia.css';
+@import '../css/assets/utilidades/componentes.css';
+
+/*Assets Style */
 @import '../css/assets/botoes/btn-global.css';

@@ -1,6 +1,5 @@
 .header-bg{
     background: var(--cor-1);
-    border-bottom: 1px solid blueviolet;
 }
 .header{
     display: flex;
@@ -8,7 +7,6 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 15px 30px;
 }
 .header-menu{
     display: flex;
@@ -19,8 +17,22 @@
 .header-menu a{
     color: var(--cor-6);
     padding: 5px 10px;
+    position: relative;
 }
-
+.header-menu a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--cor-6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .6s ease-in-out;
+}
+.header-menu a:hover::after{
+    width: 100%;
+    color: var(--cor-6);
+}
 .header-nome-moto{
     display: flex;
     flex-direction: column;
