@@ -1,6 +1,8 @@
 /* Global Style */
 @import '../css/global/section-header.css';
+@import '../css/global/global.css';
 
 /* Utilidades Style */
 @import '../css/assets/utilidades/cores.css';
 @import '../css/assets/utilidades/tipografia.css';
+@import '../css/assets/botoes/btn-global.css';

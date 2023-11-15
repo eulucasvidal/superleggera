@@ -1,7 +1,6 @@
-.font-exs{
+/* .font-exs{
   font: 400 0.625rem/1.2 'Poppins', sans-serif;
-
-}
+} Essa fonte sera usada somente em detalhe de span*/
 .font-xs{
   font: 500 0.875rem/1.2 'Poppins', sans-serif;
 }
@@ -30,6 +29,7 @@
 .font-xxl{
   font: 500 4.25rem/1.2 'Poppins', sans-serif;
 }
+/* fonte que sera usada na parte de introducao
 .font-exl{
   font: 500 5.875rem/1.2 'Poppins', sans-serif;
-}
+} */
