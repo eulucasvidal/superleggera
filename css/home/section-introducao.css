@@ -20,8 +20,31 @@
 .introducao-conteudo h1{
     text-transform: capitalize;
     font: 500 5.875rem/1.2 'Poppins', sans-serif;
-    text-wrap: wrap;
+    width: auto;
 }
 .introducao img{
     border-radius: 25px;
+}
+
+@media(max-width:1000px){
+    .introducao-conteudo{
+        gap: 25px;
+    }
+    .introducao-conteudo h1{
+        font-size: 4.875rem;
+    }
+}
+@media(max-width:850px){
+    .introducao-conteudo h1{
+        font-size: 3.875rem;
+    }
+}
+
+@media(max-width:600px){
+    .introducao-conteudo{
+        gap: 15px;
+    }
+        .introducao-conteudo h1{
+        font-size: 2.4rem;
+    }
 }

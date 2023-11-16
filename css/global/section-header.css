@@ -42,9 +42,20 @@
     font: 400 0.725rem/1.2 'Poppins', sans-serif;
     color: var(--cor-3);
 }
-.header-container-button{
+.header-btn{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
+}
+.btn-menu{
+    display: none;
+}
+@media(max-width:1000px){
+    .header-menu,.header-btn{
+        display: none;
+    }
+    .btn-menu{
+    display: block;
+}
 }
