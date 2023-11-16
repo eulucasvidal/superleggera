@@ -1,0 +1,27 @@
+.introducao-bg{
+    background: var(--cor-1);
+}
+.introducao{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.introducao-conteudo{
+    position: absolute;
+    text-align: center;
+    color: var(--cor-1);
+    display: grid;
+    gap: 50px;
+}
+.introducao-conteudo span{
+    text-transform: uppercase;
+}
+.introducao-conteudo h1{
+    text-transform: capitalize;
+    font: 500 5.875rem/1.2 'Poppins', sans-serif;
+    text-wrap: wrap;
+}
+.introducao img{
+    border-radius: 25px;
+}

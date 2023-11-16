@@ -9,3 +9,6 @@
 
 /*Assets Style */
 @import '../css/assets/botoes/btn-global.css';
+
+/*Home Style */
+@import '../css/home/section-introducao.css';

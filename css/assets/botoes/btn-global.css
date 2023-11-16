@@ -1,6 +1,4 @@
 .btn-global{
-    background: var(--cor-5);
-    color: var(--cor-1);
     font: 500 1rem/1.2 'Poppins', sans-serif;
     padding: 10px 20px;
     border-radius: 50px;
@@ -9,4 +7,16 @@
     cursor: pointer;
     text-transform: capitalize;
     box-shadow: 0px 2px 8px 0 #0000009f;
+}
+.btn-1{
+    background: var(--cor-5);
+    color: var(--cor-1);
+}
+.btn-2{
+    background:#f8f8f818;
+    color: var(--cor-1);
+}
+.btn-3{
+    background: var(--cor-1);
+    color: var(--cor-5);
 }
