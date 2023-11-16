@@ -1,50 +1,50 @@
 .introducao-bg{
     background: var(--cor-1);
+    padding: 5px 30px;
 }
 .introducao{
+    background-image: url(../../img/img-destaque/ducati-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 210px;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    justify-items: center;
-}
-.introducao-conteudo{
-    position: absolute;
+    justify-content: center;
     text-align: center;
-    color: var(--cor-1);
-    display: grid;
     gap: 50px;
-}
-.introducao-conteudo span{
-    text-transform: uppercase;
-}
-.introducao-conteudo h1{
-    text-transform: capitalize;
-    font: 500 5.875rem/1.2 'Poppins', sans-serif;
-    width: auto;
-}
-.introducao img{
     border-radius: 25px;
 }
-
-@media(max-width:1000px){
-    .introducao-conteudo{
+.introducao span{
+    text-transform: uppercase;
+}
+.introducao h1{
+    font: 500 5.875rem/1.2 'Poppins', sans-serif;
+}
+@media (max-width: 1300px) {
+    .introducao{
         gap: 25px;
+        border-radius: 20px;
+        padding: 150px;
     }
-    .introducao-conteudo h1{
+    .introducao h1{
         font-size: 4.875rem;
     }
 }
-@media(max-width:850px){
-    .introducao-conteudo h1{
+@media (max-width: 850px) {
+    .introducao span{
+        font-size: 1.125rem;
+    }
+        .introducao h1{
         font-size: 3.875rem;
     }
 }
-
-@media(max-width:600px){
-    .introducao-conteudo{
-        gap: 15px;
+@media (max-width: 600px) {
+    .introducao{
+        gap: 10px;
     }
-        .introducao-conteudo h1{
-        font-size: 2.4rem;
+        .introducao h1{
+        font-size: 2.5rem;
     }
 }
