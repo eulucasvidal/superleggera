@@ -1,0 +1,28 @@
+.aerodinamica-bg{
+    background:var(--cor-1);
+}
+.aerodinamica{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 100px;
+}
+
+.aerodinamica-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aerodinamica-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.aero-img1,
+.aero-img2,
+.aero-img3{
+    border-radius: 25px;
+}

@@ -2,34 +2,32 @@
   font: 400 0.625rem/1.2 'Poppins', sans-serif;
 } Essa fonte sera usada somente em detalhe de span*/
 .font-xs{
-  font: 500 0.875rem/1.2 'Poppins', sans-serif;
+  font: 500 0.875rem/1.2 'Poppins', sans-serif; /* 14px */
 }
 .font-s{
-  font: 400 1rem/1.2 'Poppins', sans-serif;
+  font: 400 1rem/1.2 'Poppins', sans-serif; /* 16px */
 }
 .font-m,
 .font-ml{
-  font: 300 1.125rem/1.2 'Poppins', sans-serif;
+  font: 300 1.125rem/1.2 'Poppins', sans-serif; /* 18px */
 }
 .font-m{
     font-weight: 400;
 }
 .font-l{
-  font: 400 1.375rem/1.2 'Poppins', sans-serif;
+  font: 400 1.375rem/1.2 'Poppins', sans-serif; /* 22px */
 }
 .font-x{
-  font: 500 1.5rem/1.2 'Poppins', sans-serif;
+  font: 500 1.5rem/1.2 'Poppins', sans-serif; /* 24px */
 }
 .font-xl{
-  font: 500 1.75rem/1.2 'Poppins', sans-serif;
+  font: 500 1.75rem/1.2 'Poppins', sans-serif; /* 28px */
 }
 .font-xx{
-  font: 400 2.125rem/1.2 'Poppins', sans-serif;
+  font: 400 2.125rem/1.2 'Poppins', sans-serif; /* 34px */
 }
 .font-xxl{
-  font: 500 4.25rem/1.2 'Poppins', sans-serif;
+  font: 500 4.25rem/1.2 'Poppins', sans-serif; /* 68px */
 }
 /* fonte que sera usada na parte de introducao
-.font-exl{
-  font: 500 5.875rem/1.2 'Poppins', sans-serif;
-} */
+  font: 500 5.875rem/1.2 'Poppins', sans-serif; /* 94px */
