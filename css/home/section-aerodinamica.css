@@ -26,3 +26,8 @@
 .aero-img3{
     border-radius: 25px;
 }
+@media(max-width:1200px){
+    .aerodinamica{
+        grid-template-columns: 1fr;
+    }
+}

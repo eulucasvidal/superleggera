@@ -51,7 +51,7 @@
 .btn-menu {
   display: none;
 }
-@media (max-width: 1160px) {
+@media (max-width: 1200px) {
   .header-menu,
   .header-btn {
     display: none;
